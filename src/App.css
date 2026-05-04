@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.AppContainer {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.LeftInputPannel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40vw;
+  background-color: #131213;
+  background-size: cover;
+  padding: 25px;
+  box-sizing: border-box;
+}
+
+.Heading {
+  font-family: 'Roboto';
+  font-size: 40px;
+  color: #f3aa4e;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-bottom: 35px;
+}
+
+.label {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.userInput {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #64748b;
+  font-weight: bold;
+  height: 35px;
+  width: 300px;
+  border: none;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.button {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #f3aa4e;
+  background-size: cover;
+  height: 35px;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.RightShowDetailsPannel {
+  width: 60vw;
+  background-color: #000000;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+.TaskContainer {
+  margin-left: 30px;
+  margin-top: 10%;
+}
+
+.Tags {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.TasksListItems {
+  margin: 0px;
+}
+
+.listItemsContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 0px;
+}
